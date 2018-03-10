@@ -2,10 +2,9 @@
 layout: mathpost
 title: "Topology"
 author: "Ginkgo"
-categories: math basics
-permalink: /:categories/:title
+categories: math 
 comments: True
 
 ---
 
-{{ page.date }}
+$$ x = \sqrt{y} \cdot {2 \over 3z} $$

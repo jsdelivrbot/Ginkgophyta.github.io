@@ -34,3 +34,14 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Front matter defaults
+defaults:
+    - scope:
+        path: "_posts/"
+        type: "posts"
+      values:
+        layout: mathpost
+        author: "Ginkgo"
+        comments: true
+        permalink: /:categories/:year/:month/:day/:title
